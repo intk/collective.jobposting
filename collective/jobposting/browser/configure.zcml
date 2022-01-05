@@ -1,0 +1,14 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="collective.jobposting">
+
+  	<browser:page
+	    name="jobposting-controlpanel"
+	    for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+	    class="..controlpanel.controlpanel.JobPostingPanelView"
+	    permission="cmf.ManagePortal"
+	/>
+
+</configure>
