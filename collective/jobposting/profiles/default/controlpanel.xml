@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <object name="portal_controlpanel">
   <configlet
-      title="JobPosting API Settings"
+      title="JobPosting Settings"
       action_id="jobposting-controlpanel"
       appId="jobposting-controlpanel"
       category="Products"
