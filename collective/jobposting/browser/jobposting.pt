@@ -1,0 +1,8 @@
+
+
+<tal:defines tal:define="structured_data view/getStructuredData">
+    <script type="application/ld+json" tal:condition="structured_data">
+        <tal:structured_data  tal:content="structure structured_data">
+        </tal:structured_data>
+    </script>
+</tal:defines>

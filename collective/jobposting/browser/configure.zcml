@@ -11,4 +11,13 @@
 	    permission="cmf.ManagePortal"
 	/>
 
+    <browser:viewlet
+      name="jobposting"
+	  for="*"
+	  class=".viewlets.JobPostingViewlet"
+      manager="plone.app.layout.viewlets.interfaces.IBelowContent"
+      template="jobposting.pt"
+      permission="zope2.View"
+      />
+
 </configure>
